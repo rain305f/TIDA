@@ -31,11 +31,8 @@ Open-world Semi-Supervised Learning (OSSL) is a realistic and challenging task, 
 
 # For CIFAR100 10% Labels and 50% Novel Classes 
 python3 train_ours.py --dataset cifar100 --lbl-percent 10 --novel-percent 50 --arch resnet18 --num_protos 200 --num_concepts 20 --lr 0.4
-
-
-For training on the other datasets, please download the dataset and put under the "name_of_the_dataset" folder and put the train and validation/test images under "train" and "test" folder. After that, please set the value of data_root argument as "name_of_the_dataset".
-
 ```
+For training on the other datasets, please download the dataset and put under the "name_of_the_dataset" folder and put the train and validation/test images under "train" and "test" folder. After that, please set the value of data_root argument as "name_of_the_dataset".
 
 ## 👍 Acknowledgement
 * [Towards Realistic Semi-Supervised Learning](https://github.com/nayeemrizve/TRSSL) The main codebase we built upon and it is an wonderful open-set semi-supervised learning algorithm.
